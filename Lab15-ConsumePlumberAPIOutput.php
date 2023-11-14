@@ -129,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Add more parameters as needed
         );
     }
-}
+
 
 // STEP 3: Set the cURL options
 // CURLOPT_RETURNTRANSFER: true to return the transfer as a string of the
@@ -159,7 +159,7 @@ curl_close($curl);
 
 // Decode the JSON into normal text
 $data = json_decode($response, true);
-
+}
 // echo "<br>The predicted output in decoded JSON format is:<br>" . var_dump($data) . "<br><br>";
 
 // Check if the response was successful
@@ -185,5 +185,6 @@ Create a form in the web user interface to post the parameter values
 in Line 22-49.
 */
 ?>
+
 
 
