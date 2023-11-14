@@ -1,3 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>POST Body</title>
+    <style>
+        form {
+            margin: 30px 0px;
+        }
+
+        input {
+            display: block;
+            margin: 10px 15px;
+            padding: 8px 10px;
+            font-size: 16px;
+        }
+
+        div {
+            font-size: 20px;
+            margin: 0px 15px;
+        }
+
+        h2 {
+            color: green;
+            margin: 20px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>diabetes prediction</h2>
+    <form method="post">
+        <input type="number" name="pregnant" placeholder="Enter how many pregnancies">
+        <input type="number" name="glucose" placeholder="glucose levels">
+        <input type="number" name="pressure" placeholder="blood pressure">
+        <input type="number" name="tricep" placeholder="tricep">
+        <input type="number" name="insulin" placeholder="how insulin">
+        <input type="number" name="mass" placeholder="Enter mass">
+        <input type="number" name="pedigree" placeholder="Enter pedigree">
+        <input type="number" name="age" placeholder="age">
+        <input type="submit" name="submit-btn" value="submit">
+    </form>
+    <br>
+</body>
+
+</html>
+
 <?php
 # *****************************************************************************
 # Lab 14: Consume data from the Plumber API Output (using PHP) ----
@@ -139,50 +186,4 @@ in Line 22-49.
 */
 ?>
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>POST Body</title>
-    <style>
-        form {
-            margin: 30px 0px;
-        }
-
-        input {
-            display: block;
-            margin: 10px 15px;
-            padding: 8px 10px;
-            font-size: 16px;
-        }
-
-        div {
-            font-size: 20px;
-            margin: 0px 15px;
-        }
-
-        h2 {
-            color: green;
-            margin: 20px 15px;
-        }
-    </style>
-</head>
-
-<body>
-    <h2>diabetes prediction</h2>
-    <form method="post">
-        <input type="number" name="pregnant" placeholder="Enter how many pregnancies">
-        <input type="number" name="glucose" placeholder="glucose levels">
-        <input type="number" name="pressure" placeholder="blood pressure">
-        <input type="number" name="tricep" placeholder="tricep">
-        <input type="number" name="insulin" placeholder="how insulin">
-        <input type="number" name="mass" placeholder="Enter mass">
-        <input type="number" name="pedigree" placeholder="Enter pedigree">
-        <input type="number" name="age" placeholder="age">
-        <input type="submit" name="submit-btn" value="submit">
-    </form>
-    <br>
-</body>
-
-</html>
 
